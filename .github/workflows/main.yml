@@ -1,0 +1,17 @@
+name: Flujo de trabajo 1
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Revision del repositorio
+        run: echo "Se está ejecutando el entorno"
+
+      - name: Analisis del repositorio
+        run: echo "Analizando el repositorio"
+
+  
