@@ -13,5 +13,7 @@ jobs:
 
       - name: Analisis del repositorio
         run: echo "Analizando el repositorio"
+      - name: Append content to the file
+        run: echo "Se añadió nuevo contenido." >> archivo.txt
 
   
